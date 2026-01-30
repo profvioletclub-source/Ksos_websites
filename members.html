@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Les Ksos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Les Ksos</h1>
+  </header>
+
+<!-- Sidebar -->
+  <aside id="sidebar" class="sidebar">
+    <button class="close-btn" onclick="toggleSidebar()">×</button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+      </ul>
+    </nav>
+  </aside>
+  
+  <main>
+    <section>
+      <input type="text" id="search-bar" placeholder="Rechercher un Ksos..." />
+      <h2>Liste des nos fiches !</h2>
+      <div id="membres-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ksos - Tous droits réservés</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
